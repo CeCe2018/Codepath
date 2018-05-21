@@ -1,8 +1,9 @@
 # Week 7 Alternative Assignment Essay
+
 Cedeiysha Mayweather
-Anastacia Webster
 IST 590_03
 5-16-18
+
 Common Vulnerabilities and Exposures
 Common vulnerabilities and exposures is formatted as a standardized list of names of known public vulnerabilities and other specific information on security exposures. When it comes to WordPress, it runs approximately 25% of the internet’s websites. Which means that if a hacker can successfully hack into one WordPress ran website because of a vulnerability; there is also a strong possibility of the other 700 million WordPress ran websites to be compromised as well. What WordPress does is once a vulnerability has surfaced, a team of specially trained individuals work on trying to patch that vulnerability. Nearly more than half of WordPress’ vulnerabilities and exposures are from WordPress plugins, following core WordPress and the themes from WordPress. SQL injections, DOS, XSS, CSRF, and Bypass are common methods used to compromise a good amount or WordPress’ vulnerabilities. 
 Starting with CVE-2018-6389, this vulnerability is best described as a way for unauthenticated attackers “can cause a denial of service (resource consumption) by using the large list of registered .js files (from wp-includes/script-loader.php) to construct a series of requests to load every file many times. a zero-day vulnerability in WordPress core was disclosed, which allows an attacker to perform a denial of service (DoS) attack against a vulnerable application.” “The vulnerability exists in the modules used to load JS and CSS files.” “These modules were designed to decrease page-loading time, but have effectively rendered the WordPress core susceptible to DoS attacks.”
